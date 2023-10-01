@@ -4,17 +4,17 @@ Estudos e aprendizagem sobre o Flutter
 ## Configurando o VSCode
 **Passo 01:** Com o VSCode aberto, vamos configurar o Dart. Na aba lateral, clique no símbolo com quatro quadradinhos de “Extensões”.
 
-![[a001-poa-006.png]]
+<img src="/Imagens/a001-poa-006.png">
 
 **Passo 02:** Nesta sessão, você pode procurar por extensões e temas para personalizar seu VSCode. Vamos buscar por “Dart” no campo de busca. Estamos buscando uma extensão chamada “Dart”, desenvolvida por “Dart Code”, que possui um símbolo de certificação. Quando encontrá-la, clique em “Install”.
-![[a001-poa-007.png]]
+<img src="/Imagens/a001-poa-007.png">
 
 **Passo 03:** Com a extensão instalada, podemos criar um projeto Dart pressionando a tecla “F1” no teclado, e pesquisando por “Dart”, depois selecionamos a opção “Dart: New Project”. Depois, vamos selecionar o tipo de aplicação que vamos criar, podemos escolher a opção “Simple Console Application”. Por fim, selecionamos um diretório. Nosso projeto Dart será criado.
 
-![[a001-poa-008.png]]
+<img src="/Imagens/a001-poa-008.png">
 
 **Passo 04:** Para rodar nossa aplicação, podemos abrir um novo terminal, clicando em “Terminal” na Barra de Menus e nas opções que se abrem, clicamos em “New Terminal”. Com o terminal aberto abaixo, escrevemos “dart run” e damos um “Enter” no teclado.
-![[Pasted image 20230930221709.png]]
+<img src="/Imagens/Pasted image 20230930221709.png">
 
 ## Variáveis
 ```dart
@@ -248,25 +248,25 @@ print(idade);
 **Aviso:** não instale o Flutter em um diretório `C:\Program Files\`que exija privilégios elevados.
 4. instalar Android Studio
 >Obs.:
-![[Pasted image 20231001040059.png]]
+<img src="/Imagens/Pasted image 20231001040059.png">
 Existe a possibilidade da necessidade de instalar esses dois detalhes!
 5. Descompactar a pasta do flutter em C:
 6. Copiar o caminho da pasta bin dentro da pasta flutter
 7. Abrir "Editar Variáveis de Ambiente do Sistema" no Windows
-![[Pasted image 20231001104941.png]]
+<img src="/Imagens/Pasted image 20231001104941.png">
 8. Editar *Path*
-![[Pasted image 20231001105011.png]]
-![[Pasted image 20231001105022.png]]
+<img src="/Imagens/Pasted image 20231001105011.png">
+<img src="/Imagens/Pasted image 20231001105022.png">
 9. Abrir terminal e rodar: (Para verificar a instalação)
 ```cmd
 flutter doctor
 ```
-![[Pasted image 20231001105128.png]]
+<img src="/Imagens/Pasted image 20231001105128.png">
 10. Aceite as licenças:
 ```cmd
 flutter doctor --android-licenses
 ```
-![[Pasted image 20231001105136.png]]
+<img src="/Imagens/Pasted image 20231001105136.png">
 
 ## Configuração no VSCode
 1. Instale o plugin do Flutter no VS Code
